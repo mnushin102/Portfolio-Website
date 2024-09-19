@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(15, 110, 169);
+}
+
+.name {
+    color:hsl(143, 86%, 63%);
+    font-size: 125%;
+    margin-top: 5px;
+    margin-right: 30px;
+    padding: 10px;
+    text-decoration: none;
+    text-align:justify;
+}
+
+#intro {
+    color:white;
+    font-size: 150%;
+    margin-top: 10%;
+    margin-left: 15%;
+    text-decoration: none;
+}
+
+p.role {
+    color: rgb(255, 255, 255);
+}
