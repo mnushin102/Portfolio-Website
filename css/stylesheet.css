@@ -2,7 +2,7 @@ body {
     background-color: rgb(15, 110, 169);
 }
 
-.name {
+#name {
     color:hsl(143, 86%, 63%);
     font-size: 125%;
     margin-top: 5px;
@@ -10,6 +10,11 @@ body {
     padding: 10px;
     text-decoration: none;
     text-align:justify;
+}
+
+.nav-bar {
+    text-align:end;
+    display:-ms-inline-flexbox;
 }
 
 #intro {
@@ -27,4 +32,9 @@ p.role {
 #link {
     display: block;
     margin-top:8cm; 
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
 }
