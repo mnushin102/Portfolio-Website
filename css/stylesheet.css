@@ -13,16 +13,29 @@ body {
 }
 
 .nav-bar {
-    text-align:end;
     display:-ms-inline-flexbox;
+    text-align:end;
 }
 
-#intro {
+#nav {
+    background-color: black;
+    border-radius: 1cm;
+    color: white;
+    font-size: 18px;
+    padding: 10px;;
+}
+
+.intro {
+    background-color: black;
+    border: 10px solid rgb(51, 227, 174);
+    border-radius: 1cm; 
     color:white;
     font-size: 150%;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 15%;
-    text-decoration: none;
+    margin-right: 45%;
+    text-align: center;
+    text-decoration:none;
 }
 
 p.role {
@@ -36,5 +49,5 @@ p.role {
 
 li {
     display: inline;
-    margin-right: 10px;
+    margin-right: 20px;
 }
