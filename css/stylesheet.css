@@ -112,5 +112,15 @@ p.paragraph {
     font-size: 1.9em;
 }
 
+.contact-details {
+    background-color: white;
+    padding: 10px;
+    border: solid 3px black;
+    border-radius: 1cm;
+    text-align:center;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 0.5cm;
+}
 /* ---------------------------------------- */
 /* ---------------------------------------- */
