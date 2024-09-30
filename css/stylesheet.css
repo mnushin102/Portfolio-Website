@@ -35,7 +35,7 @@ body {
     border-radius: 1cm; 
     color:white;
     font-size: 150%;
-    margin-top: 5%;
+    margin-top: 3%;
     margin-left: 15%;
     margin-right: 45%;
     text-align: center;
@@ -44,6 +44,13 @@ body {
 
 p.role {
     color: rgb(255, 255, 255);
+}
+
+div img {
+    border: solid 5px white;
+    border-radius: 5cm;
+    border-style:double;
+    margin-left: 340px;
 }
 
 #link {
