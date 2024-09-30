@@ -48,7 +48,7 @@ p.role {
     color: rgb(255, 255, 255);
 }
 
-div img {
+#image {
     border: solid 5px white;
     border-radius: 5cm;
     border-style:double;
