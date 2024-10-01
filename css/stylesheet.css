@@ -133,3 +133,23 @@ p.paragraph {
 }
 /* ---------------------------------------- */
 /* ---------------------------------------- */
+
+/* project.html */
+/* ---------------------------------------- */
+/* ---------------------------------------- */
+
+#project-header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: solid 3px rgb(51, 227, 174);
+    border-radius: 1cm;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 200%;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+/* ---------------------------------------- */
+/* ---------------------------------------- */
