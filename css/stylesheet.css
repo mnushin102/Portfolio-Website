@@ -153,3 +153,20 @@ p.paragraph {
 
 /* ---------------------------------------- */
 /* ---------------------------------------- */
+
+/* skills.html */
+/* ---------------------------------------- */
+/* ---------------------------------------- */
+
+#skills-header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: solid 3px rgb(51, 227, 174);
+    border-radius: 1cm;
+    margin-left: 43%;
+    margin-right: 43%;
+    font-size: 30px;
+    padding: 10px;
+    text-decoration: underline;
+}
