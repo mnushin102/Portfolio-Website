@@ -31,6 +31,10 @@ body {
     text-decoration: none;
 }
 
+#nav:hover {
+    background-color: rgb(27, 162, 74);
+}
+
 
 
 .intro {
