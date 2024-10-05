@@ -31,6 +31,8 @@ body {
     text-decoration: none;
 }
 
+
+
 .intro {
     background-color: black;
     border: 10px solid rgb(51, 227, 174);
@@ -170,7 +172,7 @@ p.paragraph {
     text-decoration: underline;
 }
 
-#pro-lang-sub-header {
+#lang-sub-header {
     color:white;
     background-color: black;
     padding: 10px;
@@ -179,13 +181,13 @@ p.paragraph {
     border: 3px solid rgb(0, 234, 255);
     border-radius: 20px;
     text-decoration:none;
+    text-align:center;
 }
 
-#pro-images-1 
+#box-of-lang 
 {
     display:flex;
     padding: 20px;
-    gap: 50px;
     margin: 20px;
     background-color: antiquewhite;
     border: solid 3px black;
