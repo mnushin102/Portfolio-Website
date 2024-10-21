@@ -58,7 +58,7 @@ p.role {
     border: solid 5px white;
     border-radius: 5cm;
     border-style:double;
-    margin-left: 340px;
+    margin-left: 400px;
 }
 
 #link {
@@ -69,6 +69,43 @@ p.role {
 li {
     display: inline;
     margin-right: 20px;
+}
+
+section.introduction {
+    margin: auto auto 40px -150px;
+}
+
+div.box {
+    float:right; 
+    margin: 30px 150px auto auto;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    font-weight:900;
+    color:white;
+    background: -webkit-linear-gradient(rgb(146, 143, 143), rgb(80, 80, 84));
+    padding: 10px;
+    border-radius: 15px;
+    width: 400px;
+    text-align: center;
+    text-shadow: -1px -1px 1px black;
+    text-transform: uppercase;
+    border: 2px solid black;
+    line-height: 1.8em;
+}
+
+div.box:hover {
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+div.box a {
+    color: white;
+    letter-spacing: 1px;
+}
+
+div.box a:hover {
+    color:rgb(13, 244, 236);
+    display:inline-block;
 }
 /* ---------------------------------------- */
 /* ---------------------------------------- */
