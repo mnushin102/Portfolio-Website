@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(15, 110, 169);
+    background: repeating-linear-gradient(rgb(15, 162, 210), rgb(5, 28, 158));
+    margin: 34px; 
 }
 
 /* home.html */
