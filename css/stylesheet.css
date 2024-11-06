@@ -7,6 +7,10 @@ body {
 /* ---------------------------------------- */
 /* ---------------------------------------- */
 
+div.top-page {
+    display:inline-block;
+}
+
 #name {
     color:hsl(143, 86%, 63%);
     font-size: 125%;
@@ -17,11 +21,6 @@ body {
     text-align:justify;
 }
 
-.nav-bar {
-    display:-ms-inline-flexbox;
-    text-align:end;
-}
-
 #nav {
     background-color: black;
     border: solid 2px white;
@@ -29,14 +28,14 @@ body {
     color: white;
     font-size: 18px;
     padding: 10px;
-    text-decoration: none;
+    text-decoration: none; 
+    position:relative;
+    left: 850px;
 }
 
 #nav:hover {
     background-color: rgb(27, 162, 74);
 }
-
-
 
 .intro {
     background-color: black;
@@ -73,7 +72,7 @@ li {
 }
 
 section.introduction {
-    margin: auto auto 40px -150px;
+    margin: 30px auto 40px -150px;
 }
 
 div.box {
@@ -92,6 +91,7 @@ div.box {
     text-transform: uppercase;
     border: 2px solid black;
     line-height: 1.8em;
+    visibility: hidden;
 }
 
 div.box:hover {
@@ -173,6 +173,7 @@ p.paragraph {
     text-align:center;
     margin-left: 20%;
     margin-right: 20%;
+    margin-bottom: 4%;
     font-size: 0.5cm;
 }
 /* ---------------------------------------- */
