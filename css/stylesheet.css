@@ -11,7 +11,7 @@ div.top-page {
     display:inline-block;
 }
 
-#name {
+h1#name {
     color:hsl(143, 86%, 63%);
     font-size: 125%;
     margin-top: 5px;
@@ -58,7 +58,7 @@ p.role {
     border: solid 5px white;
     border-radius: 5cm;
     border-style:double;
-    margin-left: 400px;
+    margin-left: 475px;
 }
 
 #link {
@@ -69,10 +69,6 @@ p.role {
 li {
     display: inline;
     margin-right: 20px;
-}
-
-section.introduction {
-    margin: 30px auto 40px -150px;
 }
 
 div.box {
@@ -108,10 +104,14 @@ div.box a:hover {
     color:rgb(13, 244, 236);
     display:inline-block;
 }
+
+h1#about-me, h1#project-hearder, h1#skills-header, h1#contact-header {
+    margin-top: 100px;
+}
 /* ---------------------------------------- */
 /* ---------------------------------------- */
 
-/* about-me.html */
+/* About Me */
 /* ---------------------------------------- */
 /* ---------------------------------------- */
 
@@ -148,42 +148,11 @@ p.paragraph {
 /* ---------------------------------------- */
 /* ---------------------------------------- */
 
-/* contact.html */
+/* Project Sections */
 /* ---------------------------------------- */
 /* ---------------------------------------- */
 
-#contact-header {
-    color: white;
-    background-color: black;
-    padding: 15px;
-    border: solid 3px rgb(51, 227, 174);
-    border-radius: 1cm;
-    margin-left: 16cm; 
-    margin-right: 16cm;
-    text-align: center;
-    text-decoration: underline;
-    font-size: 1.9em;
-}
-
-.contact-details {
-    background-color: white;
-    padding: 10px;
-    border: solid 3px black;
-    border-radius: 1cm;
-    text-align:center;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 4%;
-    font-size: 0.5cm;
-}
-/* ---------------------------------------- */
-/* ---------------------------------------- */
-
-/* project.html */
-/* ---------------------------------------- */
-/* ---------------------------------------- */
-
-section.project {
+h1 {
     text-align: center;
     font-size: 110%;
 }
@@ -271,7 +240,7 @@ div.project_tech, div.project_tech2{
 /* ---------------------------------------- */
 /* ---------------------------------------- */
 
-/* skills.html */
+/* Skills Section */
 /* ---------------------------------------- */
 /* ---------------------------------------- */
 
@@ -308,6 +277,36 @@ div.project_tech, div.project_tech2{
     border: solid 3px black;
 }
 
+/* ---------------------------------------- */
+/* ---------------------------------------- */
 
+/* Contact Section */
+/* ---------------------------------------- */
+/* ---------------------------------------- */
+
+#contact-header {
+    color: white;
+    background-color: black;
+    padding: 15px;
+    border: solid 3px rgb(51, 227, 174);
+    border-radius: 1cm;
+    margin-left: 16cm; 
+    margin-right: 16cm;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.9em;
+}
+
+.contact-details {
+    background-color: white;
+    padding: 10px;
+    border: solid 3px black;
+    border-radius: 1cm;
+    text-align:center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 4%;
+    font-size: 0.5cm;
+}
 /* ---------------------------------------- */
 /* ---------------------------------------- */
